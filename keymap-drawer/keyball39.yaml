@@ -31,15 +31,15 @@ layers:
   - {t: ',', s: <}
   - {t: ., h: MAIN}
   - {t: /, s: '?'}
-  - SNIPE
+  - $$mdi:apple-keyboard-caps$$
   - $$mdi:mouse-right-click-outline$$
-  - LGUI
+  - $$mdi:keyboard-esc$$
   - {t: '$$mdi:keyboard-tab$$', h: MAIN}
   - $$mdi:keyboard-space$$
-  - $$mdi:keyboard-esc$$
+  - SNIPE
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', h: RH}
-  - F12
+  - $$mdi:mouse-right-click-outline$$
   MAIN:
   - Gui+$$mdi:keyboard-tab$$
   - {t: Gui+`, s: Gui+~}
@@ -99,7 +99,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
   - {type: held}
-  - $$mdi:mouse-right-click-outline$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -231,12 +231,12 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:progress-download$$', type: held}
+  - $$mdi:progress-download$$
   - $$mdi:bluetooth-off$$
   - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:progress-download$$
