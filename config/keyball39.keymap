@@ -43,7 +43,7 @@
             label = "MAIN";
             bindings = <
 &kp LG(TAB)  &kp LG(GRAVE)  &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOL_UP                           &kp GRAVE      &kp BACKSLASH  &kp TILDE       &kp SQT         &kp DOUBLE_QUOTES
-&trans       &kp C_BRI_DN   &kp F20     &kp C_BRI_UP       &trans                                 &kp LEFT       &kp DOWN       &kp UP          &kp RIGHT       &kp PIPE
+&trans       &trans         &kp F20     &trans             &trans                                 &kp LEFT       &kp DOWN       &kp UP          &kp RIGHT       &kp PIPE
 &trans       &trans         &trans      &trans             &trans                                 &kp LC(LS(C))  &kp LC(LS(V))  &kp UNDERSCORE  &kp LEFT_BRACE  &kp RIGHT_BRACE
 &trans       &trans         &trans      &trans             &trans        &trans  &kp PRINTSCREEN  &trans                                                        &mkp MCLK
             >;
@@ -52,10 +52,10 @@
         RH {
             label = "RH";
             bindings = <
-&trans  &trans  &trans  &trans     &trans                          &trans    &trans            &kp PLUS   &kp PAGE_UP        &kp PAGE_DOWN
-&trans  &trans  &trans  &trans     &trans                          &kp HOME  &kp LEFT_BRACKET  &kp MINUS  &kp RIGHT_BRACKET  &kp END
-&trans  &trans  &trans  &trans     &trans                          &trans    &trans            &trans     &trans             &trans
-&trans  &trans  &trans  &sk LCTRL  &sk LEFT_SHIFT  &trans  &trans  &trans                                                    &trans
+&trans  &trans  &trans  &trans          &trans                            &kp C_BRI_UP  &kp C_BRI_DN      &kp PLUS   &kp PAGE_UP        &kp PAGE_DOWN
+&trans  &trans  &trans  &trans          &trans                            &kp HOME      &kp LEFT_BRACKET  &kp MINUS  &kp RIGHT_BRACKET  &kp END
+&trans  &trans  &trans  &trans          &trans                            &trans        &trans            &trans     &trans             &trans
+&trans  &trans  &trans  &sk LEFT_SHIFT  &sk LEFT_CONTROL  &trans  &trans  &trans                                                        &trans
             >;
         };
 
