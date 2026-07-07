@@ -35,7 +35,7 @@ layers:
   - LGUI
   - $$mdi:keyboard-esc$$
   - {t: '$$mdi:keyboard-tab$$', h: MAIN}
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-command$$'}
   - SNIPE
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', h: RH}
