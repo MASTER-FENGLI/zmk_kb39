@@ -42,20 +42,20 @@
         MAIN {
             label = "MAIN";
             bindings = <
-&kp LG(TAB)  &kp LG(GRAVE)      &trans    &trans            &trans                  &kp GRAVE  &kp BACKSLASH  &kp TILDE       &kp LA(GRAVE)  &kp LA(TAB)
-&trans       &kp DOUBLE_QUOTES  &kp PIPE  &kp SINGLE_QUOTE  &trans                  &kp LEFT   &kp DOWN       &kp UP          &kp RIGHT      &kp COLON
-&trans       &trans             &trans    &trans            &trans                  &trans     &trans         &kp UNDERSCORE  &trans         &trans
-&trans       &trans             &trans    &trans            &trans  &trans  &trans  &mkp LCLK                                                &trans
+&kp LG(TAB)  &kp LG(GRAVE)      &kp ESC   &trans            &trans                  &trans     &trans     &kp TILDE       &kp LA(GRAVE)  &kp LA(TAB)
+&trans       &kp DOUBLE_QUOTES  &kp PIPE  &kp SINGLE_QUOTE  &trans                  &kp LEFT   &kp DOWN   &kp UP          &kp RIGHT      &kp COLON
+&trans       &trans             &trans    &trans            &trans                  &trans     &kp GRAVE  &kp UNDERSCORE  &kp BACKSLASH  &trans
+&trans       &trans             &trans    &trans            &trans  &trans  &trans  &mkp LCLK                                            &trans
             >;
         };
 
         RH {
             label = "RH";
             bindings = <
-&kp ESC  &kp C_MUTE  &kp C_VOLUME_UP  &trans         &kp C_BRI_UP                      &trans  &trans            &kp PLUS   &kp PAGE_UP        &kp PAGE_DOWN
-&kp F20  &kp HOME    &kp C_VOL_DN     &kp END        &kp C_BRI_DN                      &trans  &kp LEFT_BRACKET  &kp MINUS  &kp RIGHT_BRACKET  &trans
-&trans   &trans      &kp LC(LS(C))    &kp LS(LC(V))  &kp PRINTSCREEN                   &trans  &trans            &trans     &trans             &trans
-&trans   &trans      &kp LEFT_SHIFT   &mkp RCLK      &sk LEFT_CONTROL  &trans  &trans  &trans                                                  &trans
+&kp ESC  &kp C_MUTE  &kp C_VOLUME_UP  &trans         &kp C_BRI_UP                      &trans     &trans            &kp PLUS   &kp PAGE_UP        &kp PAGE_DOWN
+&kp F20  &kp HOME    &kp C_VOL_DN     &kp END        &kp C_BRI_DN                      &mkp LCLK  &kp LEFT_BRACKET  &kp MINUS  &kp RIGHT_BRACKET  &mkp RCLK
+&trans   &trans      &kp LC(LS(C))    &kp LS(LC(V))  &kp PRINTSCREEN                   &trans     &trans            &trans     &trans             &trans
+&trans   &trans      &kp LEFT_SHIFT   &mkp RCLK      &sk LEFT_CONTROL  &trans  &trans  &trans                                                     &trans
             >;
         };
 
