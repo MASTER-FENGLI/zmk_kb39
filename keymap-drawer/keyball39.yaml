@@ -49,8 +49,8 @@ layers:
   - {t: '`', s: '~'}
   - {t: \, s: '|'}
   - '~'
-  - Alt+$$mdi:keyboard-tab$$
   - {t: Alt+`, s: Alt+~}
+  - Alt+$$mdi:keyboard-tab$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
