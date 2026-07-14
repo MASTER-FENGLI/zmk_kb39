@@ -52,9 +52,9 @@ layers:
   - {t: Alt+`, s: Alt+~}
   - Alt+$$mdi:keyboard-tab$$
   - $$mdi:apple-keyboard-caps$$
-  - $$mdi:arrow-left-bold$$
+  - BACK
   - '|'
-  - $$mdi:arrow-right-bold$$
+  - FORWARD
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
