@@ -51,10 +51,10 @@ layers:
   - '~'
   - {t: Alt+`, s: Alt+~}
   - Alt+$$mdi:keyboard-tab$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - '"'
+  - $$mdi:apple-keyboard-caps$$
+  - $$mdi:arrow-left-bold$$
   - '|'
-  - {t: '''', s: '"'}
+  - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
@@ -97,9 +97,9 @@ layers:
   - END
   - $$mdi:brightness-7$$
   - $$mdi:arrow-left-bold$$
-  - $$mdi:mouse-left-click-outline$$
+  - {t: '''', s: '"'}
   - {t: '-', s: _}
-  - $$mdi:mouse-right-click-outline$$
+  - '"'
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
