@@ -36,10 +36,10 @@
         MAIN {
             label = "MAIN";
             bindings = <
-&kp LG(TAB)  &kp LG(GRAVE)  &kp ESC   &trans     &trans                  &trans     &trans      &kp TILDE       &kp LA(GRAVE)  &kp LA(TAB)
-&kp CAPS     &kp LEFT       &kp PIPE  &kp RIGHT  &trans                  &kp LEFT   &kp DOWN    &kp UP          &kp RIGHT      &kp COLON
-&trans       &trans         &trans    &trans     &trans                  &kp GRAVE  &kp K_BACK  &kp UNDERSCORE  &kp K_FORWARD  &kp BACKSLASH
-&trans       &trans         &trans    &trans     &trans  &trans  &trans  &trans                                                &trans
+&kp LG(TAB)  &kp LG(GRAVE)  &kp ESC   &trans         &trans                  &trans     &trans      &kp TILDE       &kp LA(GRAVE)  &kp LA(TAB)
+&kp CAPS     &kp K_BACK     &kp PIPE  &kp K_FORWARD  &trans                  &kp LEFT   &kp DOWN    &kp UP          &kp RIGHT      &kp COLON
+&trans       &trans         &trans    &trans         &trans                  &kp GRAVE  &kp K_BACK  &kp UNDERSCORE  &kp K_FORWARD  &kp BACKSLASH
+&trans       &trans         &trans    &trans         &trans  &trans  &trans  &trans                                                &trans
             >;
         };
 
