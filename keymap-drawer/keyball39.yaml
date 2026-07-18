@@ -32,7 +32,7 @@ layers:
   - .
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-caps$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Alt+D
   - SNIPE
   - {t: '$$mdi:keyboard-tab$$', h: MAIN}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-command$$'}
