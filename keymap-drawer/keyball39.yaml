@@ -28,15 +28,15 @@ layers:
   - B
   - N
   - M
+  - $$mdi:mouse-left-click-outline$$
   - {t: ',', s: <}
   - .
-  - {t: /, s: '?'}
   - $$mdi:apple-keyboard-caps$$
   - Alt+D
   - SNIPE
   - {t: '$$mdi:keyboard-tab$$', h: MAIN}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-command$$'}
-  - Sft+$$mdi:apple-keyboard-command$$
+  - {t: /, s: '?'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', h: RH}
   - $$mdi:keyboard-esc$$
@@ -107,8 +107,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - _
-  - {t: '=', s: +}
   - {t: '''', s: '"'}
+  - {t: '=', s: +}
   - '"'
   - '|'
   - {t: '$$mdi:transfer$$', type: trans}
