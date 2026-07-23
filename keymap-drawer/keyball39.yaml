@@ -32,7 +32,7 @@ layers:
   - {t: ',', s: <}
   - .
   - $$mdi:apple-keyboard-caps$$
-  - Alt+D
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - SNIPE
   - {t: '$$mdi:keyboard-tab$$', h: MAIN}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-command$$'}
@@ -100,7 +100,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
-  - ':'
+  - '|'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -110,16 +110,16 @@ layers:
   - {t: '''', s: '"'}
   - {t: '=', s: +}
   - '"'
-  - '|'
+  - {t: /, s: '?'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:keyboard-esc$$
-  - $$mdi:mouse-left-click-outline$$
   - '?'
+  - $$mdi:keyboard-esc$$
+  - {t: '$$mdi:transfer$$', type: trans}
   RH:
   - Alt+$$mdi:keyboard-tab$$
   - {t: Alt+`, s: Alt+~}
@@ -246,7 +246,7 @@ layers:
   - F3
   - F4
   - F5
-  - PRINTSCREEN
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - F20
   - $$mdi:brightness-7$$
@@ -256,9 +256,9 @@ layers:
   - F8
   - F9
   - F10
-  - $$mdi:volume-off$$
+  - $$mdi:apple-keyboard-caps$$
   - $$mdi:volume-low$$
-  - Ctl+$$mdi:apple-keyboard-option$$
+  - MUTE
   - $$mdi:volume-high$$
   - $$mdi:backspace-reverse-outline$$
   - F11
@@ -266,10 +266,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - PRINTSCREEN
+  - Ctl+Sft+C
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+Sft+V
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -277,6 +277,6 @@ layers:
   - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
   - $$mdi:bluetooth-off$$
   - $$mdi:progress-download$$
-  - Sft+Ctl+C
-  - Ctl+Sft+V
+  - Ctl+PRINTSCREEN
+  - Alt+$$mdi:apple-keyboard-control$$
   - {t: '$$mdi:transfer$$', type: trans}
